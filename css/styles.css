@@ -3,18 +3,45 @@
 .logo {
   position: absolute;
   top: 0;
-  height: 90%;
+  height: 45px;
 }
 
 .navbar-default {
   background-color: #000;
   border: none;
   border-radius: 0px;
+  margin-bottom: 0px;
 }
 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
   color: #34b6ff;
   background-color: transparent;
+}
+
+/* JUMBOTRON STYLES */
+.jumbotron {
+  width: 100%;
+  text-align: center;
+  height: 800px;
+  margin: 0px auto;
+  background-image: url('../img/yosemite-background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* ABOUT ME STYLES */
+#about_me {
+  background-color: #000;
+  height: 400px;
+}
+
+#about_me .container-fluid {
+  width: 100%;
+}
+
+#about_me p {
+  color: #fff;
 }
