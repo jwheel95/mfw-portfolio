@@ -22,7 +22,7 @@
 }
 
 /* JUMBOTRON STYLES */
-.jumbotron {
+.yosemite {
   width: 100%;
   text-align: center;
   height: 800px;
@@ -36,7 +36,7 @@
 /* ABOUT ME STYLES */
 #about_me {
   background-color: #000;
-  height: 500px;
+  min-height: 600px;
   padding-top: 40px;
 }
 
@@ -50,4 +50,29 @@
 .blurb {
   color: white;
   padding-top: 30px;
+}
+
+/* PROJECTS STYLES */
+
+.fresno {
+  width: 100%;
+  text-align: center;
+  height: 800px;
+  margin: 0px auto;
+  background-image: url('../img/fresno-city.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  border-bottom: 3px solid #34b6ff;
+}
+
+.projects-container {
+  padding-top: 40px;
+}
+
+/* CONTACT STYLES */
+
+#contact {
+  background-color: #000;
+  min-height: 600px;
+  padding-top: 40px;
 }
