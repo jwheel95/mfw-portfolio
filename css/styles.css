@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans|Yanone+Kaffeesatz');
 
 /* NAVBAR STYLES */
 .logo {
@@ -7,7 +8,7 @@
 }
 
 .navbar-default {
-  background-color: #000;
+  background-color: #2a2c37;
   border: none;
   border-radius: 0px;
   margin-bottom: 0px;
@@ -25,20 +26,21 @@
 .yosemite {
   width: 100%;
   text-align: center;
-  height: 800px;
+  min-height: 800px;
   margin: 0px auto;
   background-image: url('../img/yosemite-background.jpg');
   background-size: cover;
   background-attachment: fixed;
-  border-bottom: 3px solid #34b6ff;
 }
 
 /* ABOUT ME STYLES */
 #about_me {
-  background-color: #000;
+  background-color: #2a2c37;
   min-height: 800px;
   padding-top: 40px;
   text-align: center;
+  border-top: 3px solid #34b6ff;
+  border-bottom: 3px solid #34b6ff;
 }
 
 .abt-header {
@@ -83,13 +85,19 @@
 /* CONTACT STYLES */
 
 #contact {
-  background-color: #000;
+  background-color: #2a2c37;
   min-height: 600px;
   padding-top: 40px;
   text-align: center;
+  color: #fff;
 }
 
 .contact-header {
   font-size: 4em;
   color: #fff;
+}
+
+
+.contact-input {
+  height: 150px;
 }
