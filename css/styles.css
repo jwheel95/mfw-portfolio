@@ -26,11 +26,32 @@
 .yosemite {
   width: 100%;
   text-align: center;
-  min-height: 800px;
-  margin: 0px auto;
+  min-height: 400px;
+  margin: 0px;
   background-image: url('../img/yosemite-background.jpg');
   background-size: cover;
   background-attachment: fixed;
+}
+
+.hero-container {
+  width: 100%;
+}
+
+.herotext {
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 100px;
+  background-color:rgba(204, 205, 206, 0.5);
+  width:100%;
+}
+
+.herotext h1 {
+  font-size: 4em;
+}
+
+.herotext h3 {
+  font-size: 2em;
 }
 
 /* ABOUT ME STYLES */
@@ -46,6 +67,7 @@
 .abt-header {
   color: #fff;
   font-size: 4em;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .profile-pic {
@@ -57,7 +79,9 @@
 
 .blurb {
   color: white;
-  padding-top: 30px;
+  padding-top: 40px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 2em;
 }
 
 /* PROJECTS STYLES */
@@ -77,9 +101,21 @@
   padding-top: 40px;
 }
 
+.project-header {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .project-img {
   width: 100%;
   height: auto;
+}
+
+.project-img:hover {
+  opacity: 0.5;
+}
+
+.projects-container h3 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 /* CONTACT STYLES */
@@ -90,6 +126,7 @@
   padding-top: 40px;
   text-align: center;
   color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .contact-header {
@@ -97,7 +134,33 @@
   color: #fff;
 }
 
+.social {
+  padding-top: 40px;
+  color: white;
+}
 
-.contact-input {
-  height: 150px;
+.social a {
+  color: #fff;
+  padding: 0px 15px;
+}
+
+.social a:hover {
+  color: #34b6ff;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (min-width: 600px) {
+  .yosemite {
+    min-height: 800px;
+  }
+  .herotext {
+    margin-top: 220px;
+  }
+  .herotext h1 {
+    font-size: 5em;
+  }
+  .herotext h3 {
+    font-size: 2.5em;
+  }
 }
